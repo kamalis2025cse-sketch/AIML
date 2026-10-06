@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Large original datasets
+dataset/train/*.tsv
+dataset/test/*.tsv
+
+# Large generated output
+output/candidate_pairs.tsv
+output/matching_results.tsv
+output/candidate_pairs_10000.tsv
+output/*.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
